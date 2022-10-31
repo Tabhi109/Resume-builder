@@ -1,0 +1,20 @@
+body{
+    background-color: beige;
+}
+.proimg{
+    border-radius: 50%;
+    width: 200px;
+    border: 2px solid black;
+}
+.backgr
+{
+    background-color: darkcyan;
+}
+.contact
+{
+    margin-right: 100%;
+}
+#cv-temp
+{
+    display:none;
+}
