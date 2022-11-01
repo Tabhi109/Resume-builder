@@ -12,6 +12,9 @@
     <div class="container" id="cv-form">
     <h1 class="text-center my-2">Build your Resume !</h1>
     <p class="text-center">-By Abhinav</p>
+    <div class="container text-center">
+        <button class="btn btn-primary mt-3" id="clearb" onclick="rel()"> Clear </button>
+    </div>
     <div class="row">
         <!--personal info-->
         <div class="col-md-6">
@@ -31,6 +34,11 @@
             <div class="form-group mt-3">
                 <label for="adrField">Your Address</label>
                 <textarea id="adrField" placeholder="Enter here" class="form-control" rows="5"></textarea>
+            </div>
+
+            <div class="form-group mt-3">
+                <label for="profilepic"> Add your photo </label>
+                <input type="file" class="form-control" id="profilepic">
             </div>
             <h5><p class="text-secondary my-4">Important links</p></h5>
             <div class="form-group mt-3">
@@ -94,33 +102,32 @@
             <div class="col-md-3 py-5 backgr" >
                 
                 <div class="col-md-4 text-center">
-                <img src="prof_pic.png" alt="" class="img-fluid proimg"></img>
-                <div class="profile-pic" id="addpropic"><button class="btn btn-primary mt-3 addpp">Add</button>
-                    </div></div>
+                <img src="prof_pic.png" alt="" class="img-fluid proimg" id="imgT"></img>
+                    </div>
                 <div class="container mt-2">
                     <h2 class="contact">Contact</h2>
                     <hr/>
                     <h5>Phone</h5>
-                    <p id="conT">6388041453</p>
+                    <p id="conT">+xx xxxxxxxxx</p>
                     <br/>
                     <h5>Email</h5>
-                    <p id="emailT">tabhinav109@gmail.com</p>
+                    <p id="emailT">your email@something.com</p>
                     <br/>
                     <h5>Address</h5>
-                    <p id="addT">JSSATE Bangalore </p>    
+                    <p id="addT"> Your address </p>    
                 </div>
                 <hr/>
                 <div class="container mt-3">
                   <h2>Expertise</h2>
                   <ul id="skT">
                     <li>
-                        java
+                        skill 1
                     </li>
                     <li>
-                        python
+                        skill 2
                     </li>
                     <li>
-                        c++
+                        skill 3
                     </li>
                   </ul>  
                 </div>
@@ -128,8 +135,8 @@
                 <div class="container mt-3">
                     <h2>Language</h2>
                     <ul id="langT">
-                        <li>hindi</li>
-                        <li>english</li>
+                        <li>Language</li>
+                        <li>Language</li>
                     </ul>
                 </div>
                 <div class="container mt-3">
@@ -145,14 +152,18 @@
 
             <div class="col-md-9 py-5">
                 
-                <h1 id="nameT" class="text-center" style="font-weight: 800;">Abhinav Tripathi</h1>
+                <h1 id="nameT" class="text-center" style="font-weight: 800;">Your name</h1>
                 <!--Objective card-->
                 <div class="card mt-4">
                     <div class="card-header backgr">
                         <h3>Objective</h3>
                     </div>
                         <div class="card-body" id="objT">
-                            <p id="objT">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium reiciendis temporibus nihil vitae provident optio. Quidem aperiam labore, debitis doloribus adipisci libero ex aliquam laborum explicabo sed. Fugit, amet in
+                            <p id="objT">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                 Iste animi fugit mollitia tempora voluptates provident nesciunt sit temporibus, dicta, 
+                                 placeat non voluptate fuga dolore ipsum perferendis voluptatibus autem cum?
+                                 Adipisci dolorem obcaecati similique tempore, minima odit assumenda nisi libero.
+                                 Beatae fugit inventore quaerat natus, ad totam sed quas consequatur in.
                             </p>
                         </div>
                 </div>
